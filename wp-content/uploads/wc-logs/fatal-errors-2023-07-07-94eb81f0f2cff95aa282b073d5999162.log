@@ -1,0 +1,20 @@
+2023-07-07T06:47:27+00:00 CRITICAL Uncaught Error: Failed opening required 'T:\xampp\htdocs\lot/wp-admin/includes/plugin.php' (include_path='T:\xampp\php\PEAR') in T:\xampp\htdocs\lot\wp-content\plugins\woocommerce\src\Admin\PluginsHelper.php:23
+Stack trace:
+#0 T:\xampp\htdocs\lot\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php(87): require()
+#1 T:\xampp\htdocs\lot\wp-content\plugins\woocommerce\src\Internal\Admin\FeaturePlugin.php(155): Automattic\Jetpack\Autoloader\jp07dd8f8cb5aa2ad74f0ce8f1f5db1f75\PHP_Autoloader::load_class('Automattic\\WooC...')
+#2 T:\xampp\htdocs\lot\wp-content\plugins\woocommerce\src\Internal\Admin\FeaturePlugin.php(99): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->includes()
+#3 T:\xampp\htdocs\lot\wp-content\plugins\woocommerce\src\Internal\Admin\FeaturePlugin.php(82): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->on_plugins_loaded()
+#4 T:\xampp\htdocs\lot\wp-content\plugins\woocommerce\src\Admin\Composer\Package.php(65): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->init()
+#5 T:\xampp\htdocs\lot\wp-content\plugins\woocommerce\src\Packages.php(64): Automattic\WooCommerce\Admin\Composer\Package::init()
+#6 T:\xampp\htdocs\lot\wp-content\plugins\woocommerce\src\Packages.php(44): Automattic\WooCommerce\Packages::load_packages()
+#7 T:\xampp\htdocs\lot\wp-includes\class-wp-hook.php(308): Automattic\WooCommerce\Packages::on_init('')
+#8 T:\xampp\htdocs\lot\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#9 T:\xampp\htdocs\lot\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 T:\xampp\htdocs\lot\wp-settings.php(486): do_action('plugins_loaded')
+#11 T:\xampp\htdocs\lot\wp-config.php(97): require_once('T:\\xampp\\htdocs...')
+#12 T:\xampp\htdocs\lot\wp-load.php(50): require_once('T:\\xampp\\htdocs...')
+#13 T:\xampp\htdocs\lot\wp-blog-header.php(13): require_once('T:\\xampp\\htdocs...')
+#14 T:\xampp\htdocs\lot\index.php(17): require('T:\\xampp\\htdocs...')
+#15 {main}
+  thrown in T:\xampp\htdocs\lot\wp-content\plugins\woocommerce\src\Admin\PluginsHelper.php on line 23
+

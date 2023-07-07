@@ -1,0 +1,2 @@
+2023-06-22T05:02:47+00:00 CRITICAL Out of memory (allocated 85983232 bytes) (tried to allocate 20480 bytes) in T:\xampp\htdocs\fwoo\wp-includes\rest-api\endpoints\class-wp-rest-controller.php on line 398
+
